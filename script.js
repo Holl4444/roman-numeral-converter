@@ -78,7 +78,7 @@ convertBtn.addEventListener("click", () => {
 });
 
 initialInput.addEventListener("keydown", (e) => {
-  if (e.key === "enter") {
+  if (e.key === "Enter") {
     checkInput(initialInput.value);
   }
 });
